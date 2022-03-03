@@ -1,21 +1,33 @@
 h1{
     color: blue;
     text-align: center;
-    margin-right: 40%;
 }
+
 h2{
     color: brown;
-    margin-left: 15%;
+    text-align: center;
+    
 }
 .ab{
     color: rgb(189, 43, 226);
-}.abc{ 
-    height: 100px
+    
+}
 
+.abc{ 
+    height: 90px;
+    float: left;
 }
 body{
     background-color: rgb(212, 0, 255);
 }
 p{
-    margin-left: 15%;
+    font: 1em sans-serif;
+    margin-left: 35%;
+}
+
+.high{
+    align-content: center;
+}
+div{
+    align-content: center;
 }

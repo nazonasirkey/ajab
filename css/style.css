@@ -14,15 +14,27 @@ h2{
 }
 
 .abc{ 
-    height: 90px;
-    float: left;
+    width: 10%;
+    position: relative;
+    left: 45%;
+
+    
+}
+body img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;               
 }
 body{
     background-color: rgb(212, 0, 255);
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 p{
     font: 1em sans-serif;
-    margin-left: 35%;
+
 }
 
 .high{
@@ -30,4 +42,7 @@ p{
 }
 div{
     align-content: center;
+}
+ol{
+    list-style-type: none;
 }

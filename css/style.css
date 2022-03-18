@@ -1,48 +1,47 @@
-h1{
-    color: blue;
-    text-align: center;
-}
+*{
+    margin: 0;
+    border: 0;
+    background-color: 0;
 
-h2{
-    color: brown;
-    text-align: center;
-    
-}
-.ab{
-    color: rgb(189, 43, 226);
-    
-}
 
-.abc{ 
-    width: 10%;
-    position: relative;
-    left: 45%;
-
-    
-}
-body img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 30%;               
 }
 body{
     background-color: rgb(212, 0, 255);
     display: block;
     width: 100%;
     text-align: center;
-}
-p{
-    font: 1em sans-serif;
 
 }
+h1{
+    font-size: medium;
+    text-align: center;
+}
 
-.high{
-    align-content: center;
+h2{
+    color: brown;
+    text-align: center;  
 }
-div{
-    align-content: center;
+
+.abc{ 
+    width: 10%;
+    position: relative;
+    left: 45%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+ 
+}       
+
+.hobby{
+    margin: 5px;
+    padding: 20px;
+    list-style: none;
+
 }
-ol{
-    list-style-type: none;
+. hobby l{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
 }
